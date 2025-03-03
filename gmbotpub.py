@@ -9,6 +9,22 @@ from datetime import datetime, timedelta
 from telegram import Update, Bot
 from telegram.ext import CommandHandler, MessageHandler, filters, CallbackContext, Application
 
+
+signature = """
+                           .-') _          _  .-')   
+                          ( OO ) )        ( \( -O )  
+ ,--.     ,--. ,--.   ,--./ ,--,'   .---.  ,------.  
+ |  |.-') |  | |  |   |   \ |  |\  / .  |  |   /`. ' 
+ |  | OO )|  | | .-') |    \|  | )/ /|  |  |  /  | | 
+ |  |`-' ||  |_|( OO )|  .     |// / |  |_ |  |_.' | 
+(|  '---.'|  | | `-' /|  |\    |/  '-'    ||  .  '.' 
+ |      |('  '-'(_.-' |  | \   |`----|  |-'|  |\  \  
+ `------'  `-----'    `--'  `--'     `--'  `--' '--'  
+"""
+
+print(signature)
+
+
 # Telegram Bot Token
 TOKEN = os.getenv("TOKEN")
 
